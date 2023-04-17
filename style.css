@@ -1,0 +1,280 @@
+
+body {
+    font-family: 'Pacifico', cursive;
+
+}
+
+/* .navbar-align{
+    justify-content: center;
+} */
+.nav-color {
+    color: white !important;
+}
+
+.btn-primary-spacing {
+    /* margin-right: 5px;
+margin-bottom: 5px !important; */
+    padding: 5px 80px 05px 80px !important;
+    background-color: #eecc66 !important;
+    color: black !important;
+    border: 2px solid #eecc66 !important;
+    border-radius: 25px !important;
+}
+
+.navbar-toggler {
+    background-color: #eecc66;
+}
+
+@media only screen and (max-width: 1477px) and (min-width: 992px) {
+    .nav-color {
+        color: white;
+        font-size: 9px;
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    .btn-primary-spacing {
+        padding: 5px 40px 05px 40px !important;
+    }
+}
+
+/* @media only screen and (max-width:990) {
+    .nav-color{
+        color: rgb(106, 9, 9);
+        font-size: 9px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(3, 3, 3);
+      
+     }
+} */
+
+/* ============================================== Hero Section ===================================== */
+.hero-right {
+    margin: 15%;
+    /* color: #423e4d; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero-right span {
+    font-size: 50px !important;
+}
+
+.hero-right p {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.hero-btn {
+    padding: 5px 10px 5px 10px !important;
+    text-align: center;
+    font-weight: bold !important;
+    font-size: 15px;
+    margin-left: 30%;
+    background-color: #eecc66 !important;
+    border: 2px solid #eecc66 !important;
+    border-radius: 15px !important;
+    color: black !important;
+}
+
+.hero-right h4 {
+    color: rgb(83, 81, 81);
+    font-size: 20px;
+    margin-top: 10%;
+    line-height: 4vh;
+    text-align: center;
+    margin-right: 10%;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.hero-left img {
+    padding-top: 1.5%;
+    height: 100%;
+}
+
+/* ============================================= footer ====================================== */
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    /* padding: 14px 0 100px 14px; */
+}
+
+.ticker-wrapper-h {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid #1c6547; */
+}
+
+/* .ticker-wrapper-h .heading{
+	background-color: #1c6547;
+	color: #fff;
+	padding: 5px 10px;
+	flex: 0 0 auto;
+	z-index: 1000;
+} */
+.ticker-wrapper-h .heading:after {
+    content: "";
+    position: absolute;
+}
+
+
+.news-ticker-h {
+    display: flex;
+
+    padding-top: 35px;
+    padding-left: 90%;
+    z-index: 999;
+
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: tic-h;
+    animation-duration: 20s;
+
+}
+
+.news-ticker-h:hover {
+    animation-play-state: paused;
+}
+
+.news-ticker-h li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    white-space: nowrap;
+    padding-left: 20px;
+}
+
+.news-ticker-h li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+@keyframes tic-h {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+/* ==================================== Choose Section ===================================== */
+.clipped-section {
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+    background-color: #f2f2f2;
+    padding: 50px;
+   
+}
+
+.clipped-section p {
+    text-align: center;
+    margin-right: 30%;
+    font-size: large;
+    font-weight: 500;
+    margin-top: 10%;
+    font-family:fantasy ;
+}
+
+.icon-section {
+    background-color: white;
+    padding: 10%;
+    font-family: fantasy;
+}
+
+.icon-section i {
+    font-size: 3rem;
+    margin: 15px 15px;
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.icon-section i:hover {
+    color: #e0a313 !important;
+}
+.main-row{
+    position: relative;
+    }
+.img-section {
+    position: absolute;
+    top:38%;
+    right: 80%;
+    height: 55% !important;
+   border-image: 5px solid black;
+}
+
+
+
+/* ======================================== sign up ================================================= */
+.clipped-section1{
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 40% 100%);
+    background-color: #bdbbbb;
+    /* padding: 50px; */
+    margin-top: 50px;
+}
+.bg-img{
+    background-image: url(./images/real\ estate.jpg);
+    background-repeat: no-repeat;
+    width: 50% !important;
+    /* height: 100%; */
+    background-position: center;
+    background-color: rgba(68, 66, 66, 0.797) !important;
+    background-blend-mode: soft-light !important;
+}
+.img-text {
+    color: rgb(216, 215, 215);
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500px;
+    font-family:fantasy;
+}
+.form-heading{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+   margin-bottom: -7%;
+   margin-top: 05%;
+}
+.btn1{
+    margin-left: 30%;
+    background-color: #eecc66 !important;
+    padding: 10px 50px 10px 50px !important;
+    border-radius: 50px !important;
+    border: 1px solid #e0a313 !important;
+    color: black !important;
+    font-weight:500;
+}
+.href-btn{
+   text-align: right;
+   font-size: 15px;
+   font-weight: 400;
+ 
+}
+.form-border{
+   border: 1px solid black;
+   margin-top:20px!important;
+   border-radius: 10%;
+   height: 55vh ;
+   position: relative;
+   left: 15%;
+   top: 5%;
+   z-index: 999;
+   background-color: white;
+   /* padding-bottom: 35%; */
+}
+.field-border input{
+border: 1px solid black;
+border-radius: 35px;
+}
