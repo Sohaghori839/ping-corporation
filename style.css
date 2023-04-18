@@ -10,6 +10,10 @@ body {
     color: white !important;
 }
 
+.navbar-align {
+    text-align: left !important;
+}
+
 .btn-primary-spacing {
     /* margin-right: 5px;
 margin-bottom: 5px !important; */
@@ -225,7 +229,7 @@ footer {
     border-image: 5px solid black;
 }
 
-/* Media quary for choos.html page  */
+/*===================================== Media quary for choos.html page =================================== */
 @media (min-width: 768px) {
 
     .col-md-3 {
@@ -287,11 +291,13 @@ footer {
     .icon-section {
         text-align: center;
     }
+
     .i-para {
-     margin-left: 0%;
+        margin-left: 0%;
     }
 }
-@media (max-width: 576px){
+
+@media (max-width: 576px) {
     .img-section {
         width: 25% !important;
         position: absolute;
@@ -317,8 +323,9 @@ footer {
     .icon-section {
         text-align: center;
     }
+
     .i-para {
-     margin-left: 0%;
+        margin-left: 0%;
     }
 }
 
@@ -391,4 +398,96 @@ footer {
 .field-border input {
     border: 1px solid black;
     border-radius: 35px;
+}
+
+/* ================================== media quary for sign-up page ===================================== */
+@media (max-width: 1200px) and (min-width: 768px) {
+    .form-border {
+        position: relative;
+        left: 2% !important;
+        top: 5%;
+        width: 47% !important;
+
+    }
+
+    .field-border input {
+        text-align: left;
+    }
+
+    .clipped-section1 {
+        display: none;
+    }
+
+    .btn1 {
+        margin-left: 10%;
+    }
+
+    .img-text {
+        margin-top: 40%;
+    }
+}
+@media (max-width: 768px) and (min-width: 574px) {
+    .form-border {
+        position: relative;
+        width: 80% !important;
+        left: 10%;
+        /* height: 62vh; */
+        top: -30%;
+        /* padding-bottom: -10%; */
+
+    }
+
+    .clipped-section1 {
+        display: none;
+    }
+
+    .bg-img {
+        width: 100% !important;
+
+    }
+
+    .img-text {
+        text-align: center;
+        margin-top: -5%;
+        font-size: 20px;
+
+    }
+
+    .bg-img {
+     height: 45vh;
+    }
+
+}
+
+@media (max-width: 574px) {
+    .form-border {
+        position: relative;
+        width: 80% !important;
+        left: 10%;
+        height: 62vh;
+        top: -30%;
+        padding-bottom: -10%;
+
+    }
+
+    .clipped-section1 {
+        display: none;
+    }
+
+    .bg-img {
+        width: 100% !important;
+
+    }
+
+    .img-text {
+        text-align: left;
+        margin-top: -10%;
+        font-size: 20px;
+
+    }
+
+    .bg-img {
+     height: 40vh;
+    }
+
 }
