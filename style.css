@@ -3,6 +3,7 @@ body {
 
 }
 
+/* ================================================== nav bar ============================================== */
 /* .navbar-align{
     justify-content: center;
 } */
@@ -28,7 +29,7 @@ margin-bottom: 5px !important; */
     background-color: #eecc66;
 }
 
-@media only screen and (max-width: 1477px) and (min-width: 992px) {
+@media only screen and (max-width: 1477px) and (min-width: 991px) {
     .nav-color {
         color: white;
         font-size: 9px;
@@ -53,7 +54,7 @@ margin-bottom: 5px !important; */
      }
 } */
 
-/* ============================================== Hero Section ===================================== */
+/* ============================================== main index.html page ===================================== */
 .hero-right {
     margin: 15%;
     /* color: #423e4d; */
@@ -92,9 +93,108 @@ margin-bottom: 5px !important; */
 }
 
 .hero-left img {
-    padding-top: 1.5%;
+    padding: .5% .5%;
     height: 100%;
+
 }
+
+/* code change */
+
+.clipped-section2 {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 40% 100%)
+}
+
+.icon-sectiont img {
+    height: 87% !important;
+    padding-top: 1%;
+}
+
+/* =================================== media quary for main index.html page ========================== */
+
+
+@media only screen and (max-width: 1720px) and (min-width: 1000px) {
+    .hero-right span {
+        text-align: right;
+        font-size: 24px !important;
+        font-weight: bold;
+    }
+
+    .hero-right p {
+        font-size: 18px !important;
+        /* font-weight: bold; */
+
+    }
+
+    .hero-right h4 {
+        font-size: 42 !important;
+        padding-top: 10% !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+    .hero-right span {
+        text-align: right;
+        font-size: 15px !important;
+        font-weight: bold;
+    }
+
+    .hero-right p {
+        font-size: 17px !important;
+        /* font-weight: bold; */
+
+    }
+
+    .hero-right h4 {
+        font-size: 10 !important;
+        padding-top: 10% !important;
+    }
+
+    .hero-btn {
+        padding: 0px 10px 5px 10px !important;
+        /* font-size: 15px !important; */
+        /* margin-left: 10% !important; */
+    }
+
+}
+@media only screen and (max-width: 776px){
+    .index-bg-img{
+        background-image: url(./images/real\ estate.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-color: rgba(142, 142, 141, 0.797) !important;
+        background-blend-mode: soft-light !important;
+        
+
+    }
+    .hero-right span {
+        text-align: right;
+        font-size: 35px !important;
+        font-weight: bold;
+    }
+
+    .hero-right p {
+        font-size: 16px !important;
+        /* font-weight: bold; */
+
+    }
+
+    .hero-right h4 {
+        font-size: 10 !important;
+        padding-top: 10% !important;
+    }
+
+    .hero-btn {
+        padding: 0px 10px 5px 10px !important;
+        /* font-size: 15px !important; */
+        /* margin-left: 10% !important; */
+    }
+    .icon-sectiont{
+        display: none;
+    }
+
+}
+
+
 
 /* ============================================= footer ====================================== */
 footer {
@@ -426,6 +526,7 @@ footer {
         margin-top: 40%;
     }
 }
+
 @media (max-width: 768px) and (min-width: 574px) {
     .form-border {
         position: relative;
@@ -454,7 +555,7 @@ footer {
     }
 
     .bg-img {
-     height: 45vh;
+        height: 45vh;
     }
 
 }
@@ -487,7 +588,7 @@ footer {
     }
 
     .bg-img {
-     height: 40vh;
+        height: 40vh;
     }
 
 }
