@@ -605,3 +605,40 @@ footer {
    text-align: center;
 }
 }
+
+/* =========================================== My Property page ==============================================*/
+.my-pro-para p{
+    font-size: 15px !important;
+}
+.my-icon-section{
+    background-color: black;
+    height: 10vh;
+    margin-top: 3% !important;
+    padding-bottom: 6.5%;
+    border-radius: 20px;
+    margin-left: 10% !important;
+}
+.my-para {
+
+    color: white;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20%;
+  margin-top: -14%;
+}
+
+.my-icon-section i {
+    font-size: 3rem;
+    margin: 15px 15px;
+    background-color: #65f40b;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+.my-icon-section i:hover {
+    color: #e0a313 !important;
+}
+.my-gallery-img{
+    padding-top: 30% ;
+}
