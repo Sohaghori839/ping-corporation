@@ -592,3 +592,16 @@ footer {
     }
 
 }
+
+/* ============================================== login page ================================================== */
+@media (max-width: 1300px) and (min-width: 770px){
+  .forgot-pswd,.have-acc {
+       width: 100% !important; 
+       text-align: center;
+   }
+   .btn1 {
+    margin-left: 30%;
+   padding: 5px 50px 5px 50px !important;
+   text-align: center;
+}
+}
