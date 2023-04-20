@@ -700,13 +700,45 @@ footer {
 }
 
 /* ======================================== home properties ==================================================== */
-
+.home-icon-gallery p{
+    font-size: 10px !important;
+}
 .home-icon-gallery i{
     background-color: black !important;
 }
 
 .home-properties-para {
 
+    color:  #eecc66;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 18%;
+    margin-top: -8%;
+}
+
+/* ======================================= real estate search ==================================================== */
+.real-estate-search{
+    background-color: black;
+    height: 10vh;
+    margin-top: 3% !important;
+    border-radius: 20px;
+    margin-left: 5% !important;
+}
+.real-estate-search i {
+    font-size: 3rem;
+    margin: 15px 15px;
+    /* background-color: #65f40b; */
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    font-size:xx-large !important;
+}
+
+.real-estate-search i:hover {
+    color: #e0a313 !important;
+}
+.real-estate-search-para{
+    font-size: 13px !important;
     color:  #eecc66;
     font-family: cursive;
     font-weight: 500;
