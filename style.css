@@ -700,3 +700,17 @@ footer {
 }
 
 /* ======================================== home properties ==================================================== */
+
+.home-icon-gallery i{
+    background-color: black !important;
+}
+
+.home-properties-para {
+
+    color:  #eecc66;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 18%;
+    margin-top: -8%;
+}
