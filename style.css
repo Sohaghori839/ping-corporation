@@ -156,16 +156,18 @@ margin-bottom: 5px !important; */
     }
 
 }
-@media only screen and (max-width: 776px){
-    .index-bg-img{
+
+@media only screen and (max-width: 776px) {
+    .index-bg-img {
         background-image: url(./images/real\ estate.jpg);
         background-position: top;
         background-repeat: no-repeat;
         background-color: rgba(142, 142, 141, 0.797) !important;
         background-blend-mode: soft-light !important;
-        
+
 
     }
+
     .hero-right span {
         text-align: right;
         font-size: 35px !important;
@@ -188,7 +190,8 @@ margin-bottom: 5px !important; */
         /* font-size: 15px !important; */
         /* margin-left: 10% !important; */
     }
-    .icon-sectiont{
+
+    .icon-sectiont {
         display: none;
     }
 
@@ -594,23 +597,27 @@ footer {
 }
 
 /* ============================================== login page ================================================== */
-@media (max-width: 1300px) and (min-width: 770px){
-  .forgot-pswd,.have-acc {
-       width: 100% !important; 
-       text-align: center;
-   }
-   .btn1 {
-    margin-left: 30%;
-   padding: 5px 50px 5px 50px !important;
-   text-align: center;
-}
+@media (max-width: 1300px) and (min-width: 770px) {
+
+    .forgot-pswd,
+    .have-acc {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .btn1 {
+        margin-left: 30%;
+        padding: 5px 50px 5px 50px !important;
+        text-align: center;
+    }
 }
 
 /* =========================================== My Property page ==============================================*/
-.my-pro-para p{
+.my-pro-para p {
     font-size: 15px !important;
 }
-.my-icon-section{
+
+.my-icon-section {
     background-color: black;
     height: 10vh;
     margin-top: 3% !important;
@@ -618,6 +625,7 @@ footer {
     border-radius: 20px;
     margin-left: 10% !important;
 }
+
 .my-para {
 
     color: white;
@@ -625,7 +633,7 @@ footer {
     font-weight: 500;
     font-size: 20px;
     margin-left: 20%;
-  margin-top: -14%;
+    margin-top: -14%;
 }
 
 .my-icon-section i {
@@ -639,23 +647,26 @@ footer {
 .my-icon-section i:hover {
     color: #e0a313 !important;
 }
-.my-gallery-img{
-    padding-top: 30% ;
+
+.my-gallery-img {
+    padding-top: 30%;
 }
 
 /* ====================================== properties search page ============================================= */
 
-.pro-search-para p{
+.pro-search-para p {
     font-size: 15px !important;
 }
-.properties-search{
+
+.properties-search {
     background-color: black;
     height: 10vh;
     margin-top: 3% !important;
     border-radius: 20px;
     margin-left: 5% !important;
-    
+
 }
+
 .pro-search-para {
 
     color: #eeaa30;
@@ -672,44 +683,48 @@ footer {
     background-color: #65f40b;
     padding: 10px 10px 10px 10px;
     border-radius: 20px;
-    font-size:xx-large !important;
+    font-size: xx-large !important;
 }
 
 .properties-search i:hover {
     color: #e0a313 !important;
 }
 
-.sec-main-icon-gallery{
+.sec-main-icon-gallery {
     background-color: black !important;
-  border-radius: 30px;
+    border-radius: 30px;
 
 }
-.sec-main-icon-gallery i{
+
+.sec-main-icon-gallery i {
     background-color: #bdbbbb !important;
 }
-.sec-main-icon-gallery h1{
+
+.sec-main-icon-gallery h1 {
     color: white;
     /* font: 5px !important; */
 }
-.sec-main-icon-gallery-para{
+
+.sec-main-icon-gallery-para {
     color: white;
     font-family: cursive;
     font-size: 14px;
-    text-align:left;
+    text-align: left;
     margin-left: 10%;
 }
 
 /* ======================================== home properties ==================================================== */
-.home-icon-gallery p{
+.home-icon-gallery p {
     font-size: 10px !important;
 }
-.home-icon-gallery i{
+
+.home-icon-gallery i {
     background-color: black !important;
 }
 
 .home-properties-para {
 
-    color:  #eecc66;
+    color: #eecc66;
     font-family: cursive;
     font-weight: 500;
     font-size: 15px;
@@ -718,28 +733,30 @@ footer {
 }
 
 /* ======================================= real estate search ==================================================== */
-.real-estate-search{
+.real-estate-search {
     background-color: black;
     height: 10vh;
     margin-top: 3% !important;
     border-radius: 20px;
     margin-left: 5% !important;
 }
+
 .real-estate-search i {
     font-size: 3rem;
     margin: 15px 15px;
     /* background-color: #65f40b; */
     padding: 10px 10px 10px 10px;
     border-radius: 20px;
-    font-size:xx-large !important;
+    font-size: xx-large !important;
 }
 
 .real-estate-search i:hover {
     color: #e0a313 !important;
 }
-.real-estate-search-para{
+
+.real-estate-search-para {
     font-size: 13px !important;
-    color:  #eecc66;
+    color: #eecc66;
     font-family: cursive;
     font-weight: 500;
     font-size: 15px;
@@ -748,10 +765,11 @@ footer {
 }
 
 /* ============================= communication ================================================ */
-.communication-para p{
+.communication-para p {
     font-size: 15px !important;
 }
-.communication-section{
+
+.communication-section {
     background-color: black;
     height: 10vh;
     margin-top: 3% !important;
@@ -759,15 +777,17 @@ footer {
     border-radius: 20px;
     margin-left: 10% !important;
 }
+
 .communication-para {
 
-    color:  #eecc66;
+    color: #eecc66;
     font-family: cursive;
     font-weight: 500;
     font-size: 18px;
     margin-left: 20%;
-  margin-top: -14%;
+    margin-top: -14%;
 }
+
 .communication-section i {
     font-size: 3rem;
     margin: 15px 15px;
@@ -779,7 +799,92 @@ footer {
 .communication-section i:hover {
     color: #e0a313 !important;
 }
-.communication-img{
-    padding-top: 10% ;
-margin-left: 25%;
+
+.communication-img {
+    padding-top: 10%;
+    margin-left: 25%;
+}
+
+/* ===================================== real estate education ================================================ */
+
+.education-section p {
+    font-size: 15px !important;
+}
+
+.education-section {
+    background-color: black;
+    height: 10vh;
+    margin-top: 3% !important;
+    padding-bottom: 6.5%;
+    border-radius: 20px;
+    margin-left: 10% !important;
+}
+
+.education-para {
+
+    color: #eecc66;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-top: -14%;
+}
+
+.education-section i {
+    font-size: 3rem;
+    margin: 15px 15px;
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+.education-section i:hover {
+    color: #e0a313 !important;
+}
+
+.education-section-img {
+    padding-top: 10%;
+    /* margin-left: 15%; */
+}
+
+/* ==================================================== Dashboard ============================================= */
+
+.dashboard-section p {
+    font-size: 15px !important;
+}
+
+.dashboard-section {
+    background-color: black;
+    height: 10vh;
+    margin-top: 3% !important;
+    padding-bottom: 6.5%;
+    border-radius: 20px;
+    margin-left: 10% !important;
+}
+
+.dashboard-para {
+
+    color: #eecc66;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-top: -14%;
+}
+
+.dashboard-section i {
+    font-size: 3rem;
+    margin: 15px 15px;
+    background-color: #d1d4cf;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+.dashboard-section i:hover {
+    color: #e0a313 !important;
+}
+
+.dash-img {
+    padding-top: 10%;
+    margin-left: 25%;
 }
