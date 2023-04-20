@@ -746,3 +746,40 @@ footer {
     margin-left: 18%;
     margin-top: -8%;
 }
+
+/* ============================= communication ================================================ */
+.communication-para p{
+    font-size: 15px !important;
+}
+.communication-section{
+    background-color: black;
+    height: 10vh;
+    margin-top: 3% !important;
+    padding-bottom: 6.5%;
+    border-radius: 20px;
+    margin-left: 10% !important;
+}
+.communication-para {
+
+    color:  #eecc66;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20%;
+  margin-top: -14%;
+}
+.communication-section i {
+    font-size: 3rem;
+    margin: 15px 15px;
+    background-color: #d1d4cf;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+.communication-section i:hover {
+    color: #e0a313 !important;
+}
+.communication-img{
+    padding-top: 10% ;
+margin-left: 25%;
+}
